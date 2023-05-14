@@ -1,5 +1,7 @@
 # spring-boot-kafka-stream-example
 
+ The streaming app filters the records to only include those whose value starts with the string "Message_". Then, it transforms the values to uppercase. Prints the key and value of each record to the console. Finally, the processed records are written to an output topic.
+
 # Instructions
 
 1. Bring up the kafka (Confluent Image):
